@@ -1,0 +1,12 @@
+import React from "react";
+
+import "./Layout.css";
+
+export default function Layout(props) {
+  return (
+    <>
+      <div>Toolbar, SideDrawer, Backdrop</div>
+      <main className="content">{props.children}</main>
+    </>
+  );
+}
